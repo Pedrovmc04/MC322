@@ -13,6 +13,14 @@ public class Membros {
         return nome;
     }
 
+    public  String getDataNascimento(){
+        return dataNascimento;
+    }
+
+    public String getEndereco(){
+        return endereco;
+    }
+
     public String toString(){
         return "Nome: " + nome
                 +"\nData de Nascimento:" + dataNascimento

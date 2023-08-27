@@ -11,6 +11,10 @@ public class Funcionario {
         return nome;
     }
 
+    public String getCargo(){
+        return cargo;
+    }
+
     public String toString(){
         return "Nome:" + nome
                 +"\nCargo:" + cargo;

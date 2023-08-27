@@ -19,8 +19,17 @@ public class Livro {
         return this.isAvailable;
     }
 
+    //GETTERS
     public String getTitulo(){
         return titulo;
+    }
+
+    public String getAutor(){
+        return autor;
+    }
+
+    public String getIsbn(){
+        return isbn;
     }
 
     public String toString(){
