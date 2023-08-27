@@ -1,14 +1,30 @@
 package pessoas;
 
-public class members {
+import library.Objects;
+
+import java.util.List;
+
+public class Members {
     private String category;
     private String name;
     private String age;
+    private Objects object;
 
-    public members(String category, String name, String age){
+    public Members(String category, String name, String age){
         this.category = category;
         this.name = name;
         this.age = age;
+    }
+
+    public Objects getObject(){
+        return this.object;
+    }
+
+    public void setObject(Objects obj){
+        this.object = obj;
+    }
+    public void removeObject(){
+        this.object = null;
     }
 
     //Getters and toString
@@ -24,7 +40,7 @@ public class members {
 
     public String toString(){
         return "Category:"+category
-                +"\nNome:"+name
+                +"\nName:"+name
                 +"\nAge:"+age;
     }
 }

@@ -20,7 +20,7 @@ public class Functionary {
     }
 
     public String toString(){
-        return "Nome:" + name
-                +"\nCargo:" + role;
+        return "Name:" + name
+                +"\nRole:" + role;
     }
 }
